@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Comic+Neue&family=Dosis:wght@200..800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Noto+Sans+Mono:wght@100..900&display=swap");
+:root {
+--green:#8bc14d;
+}
+
+body {
+    font-family: "Noto Sans Mono", monospace;
+    font-style: normal;
+}
+.container{
+    width: 86%;
+    margin: auto;
+}
