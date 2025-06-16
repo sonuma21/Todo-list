@@ -27,5 +27,8 @@
                 <a href="{{ route('task.add') }}">Add Task</a>
             </button>
         </div>
+        <div>
+            <p>Welcome {{Auth::user()->name}}</p>
+        </div>
     </div>
 </nav>

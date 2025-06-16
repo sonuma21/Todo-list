@@ -42,6 +42,8 @@
             <x-primary-button class="ms-3">
                 {{ __('Log in') }}
             </x-primary-button>
+
         </div>
     </form>
+    <a href="{{route('register')}}">Create a new account</a>
 </x-guest-layout>
