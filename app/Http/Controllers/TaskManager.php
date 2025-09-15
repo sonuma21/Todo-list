@@ -60,7 +60,7 @@ class TaskManager extends Controller
             ->where('id', $id)->delete()
         ) {
             toast("Task Deleted Successfully", "success");
-            return redirect(route('home'));
+            return redirect()->back();
         }
         toast("Task failed to delete", "unsuccessful");
         return redirect(route('home'));
