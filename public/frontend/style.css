@@ -1,13 +1,70 @@
-@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Comic+Neue&family=Dosis:wght@200..800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Noto+Sans+Mono:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 :root {
---green:#8bc14d;
+    --gradient: linear-gradient(135deg, #dfa8c8, #491534, #1a051d);
+    --shadow: linear-gradient(145deg, #c17aa1, #3e122e, #160217);
+    --pink: #dfa8c8;
+    --dark-purple: #491534;
+    --darker-purple: #1a051d;
 }
 
 body {
-    font-family: "Noto Sans Mono", monospace;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
     font-style: normal;
 }
-.container{
+
+.magic {
+    background: var(--gradient);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    opacity: 0.9;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+
+.container {
     width: 86%;
     margin: auto;
 }
+
+nav {
+    background: var(--dark-purple);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.task-container {
+    background: linear-gradient(135deg, #dfa8c8, #491534);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+
+
+.welcome-header button {
+    background: var(--gradient);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+
+    &:hover {
+        background: var(--shadow);
+    }
+
+    transition: ease-in-out 0.3s;
+
+
+}
+
+
